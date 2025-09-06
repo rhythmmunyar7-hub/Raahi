@@ -1,0 +1,41 @@
+You are improving my Notes feature in React + TypeScript + Tailwind.  
+Update the Notes page with the following changes:
+
+1. **Top Bar UI Enhancements**
+   - Keep the glass effect but decrease the neon glow around the notes editor so it looks premium and subtle, not too strong.
+   - Each button should still have a glass effect (`backdrop-blur-md bg-white/10 hover:bg-white/20 border border-white/20 shadow`).
+   - Arrange buttons logically: [Bold, Italic, Underline, Strikethrough] → [Bullet list, Number list, Checklist, Headings] → [Undo, Redo] → [Search bar] → [AI Assist dropdown].
+
+2. **AI Assist Info**
+   - On the AI Assist button in the top bar, add an "Info" option.
+   - Clicking it should open a centered glass-effect modal box that explains all AI features (Summarize, Rewrite, Expand, Translate, Smart Tagging) and how to use them.
+   - The info box should have a dark glass background (`bg-black/40 backdrop-blur-lg border border-white/20`) and white text. Do not use any emojis.
+
+3. **Search Bar**
+   - Fix search functionality so typing filters and highlights matching text.
+   - Add a **light teal animated outline** around the search input. The outline should softly move/glow around the shape.
+
+4. **Notes Page Header**
+   - Replace "Start writing your note..." with `"Your Note"`.
+   - On the same line, show **tags**:
+     - Header text aligned left.
+     - Tags aligned right.
+
+5. **Tags Functionality**
+   - Users can add tags for each note.
+   - Tags should be saved with the note and searchable.
+   - Tags should also appear on saved notes at the top.
+   - Each tag should be displayed as a glassmorphic pill button with different light colors (light blue, light pink, light green, etc.).
+
+6. **Search by Tags**
+   - The search bar should also allow searching notes by tags.
+   - If the query matches a tag, all notes with that tag should be displayed.
+
+7. **Editor Scrolling**
+   - Allow smooth scrolling inside the editor with `overflow-y-auto` and `scrollbar-none`.
+   - No visible scrollbars in the UI.
+
+8. **Data**
+   - Remove any dummy/pre-saved notes. Start with an empty editor.
+
+Ensure styles remain consistent with Tailwind, keep everything modern, glassy, and premium-looking.
